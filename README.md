@@ -7,12 +7,15 @@ After cloning the project try to run the command ng serve to build an applicatio
 
 you may get the following error 
 
-An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'.
 
 please run this command : npm install --save-dev @angular-devkit/build-angular to as dev dependency. 
 
-This is the package to build an Angular application, now a required dependency in your CLI projects
+This is the package to build an Angular application, now a required dependency in your CLI projects.
 
+After all the above steps you should start seeing the form to submit to the server when you run ng serve.
+
+In case you still getting more issues please feel free to contact me direct at 0731230109 or send an email to xmbete@gmail.com.
 
 Development server
 
