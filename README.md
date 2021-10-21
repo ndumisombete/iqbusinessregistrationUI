@@ -1,6 +1,21 @@
 # iqbusinessregistrationUI
 
+Clone the project into your own machne directory
+git clone https://github.com/ndumisombete/iqbusinessregistrationUI.git
+
+After cloning the project try to run the command ng serve to build an application
+
+you may get the following error 
+
+An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+
+please run this command : npm install --save-dev @angular-devkit/build-angular to as dev dependency. 
+
+This is the package to build an Angular application, now a required dependency in your CLI projects
+
+
 Development server
+
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 Build
